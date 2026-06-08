@@ -19,6 +19,11 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
+- name: Package3
+  gitServerName: GH_SK
+  gitUrl: https://github.com/santhu736852
+  gitUsername: santhu736852
+  gitBranch: main
 services:
 - serviceName: project.externalgitprojecttest_new.integrations:NonDAF
   packages:
