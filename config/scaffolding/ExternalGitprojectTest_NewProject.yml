@@ -7,6 +7,22 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
+- name: TPPWithVar
+  gitServerName: GH_SK
+  gitUrl: https://github.com/Lakshitha-Ramesh-IBM
+  gitUsername: santhu736852
+  gitBranch: main
+services:
+- serviceName: project.externalgitprojecttest_new.integrations:NonDAF
+  packages:
+  - name: ExternalGitprojectTest_NewProject
+    version: "1.0"
+  - name: TPPWithVar
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.868
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
