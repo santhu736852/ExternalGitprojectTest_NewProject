@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Package3" SERVICE="Package3:flowservice3">
+  <COMMENT></COMMENT>
+</INVOKE>
+</FLOW>
