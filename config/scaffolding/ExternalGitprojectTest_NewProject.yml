@@ -8,11 +8,13 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 - name: TPPWithVar
+  version: "1.0"
   gitServerName: GH_SK
   gitUrl: https://github.com/Lakshitha-Ramesh-IBM
   gitUsername: santhu736852
   gitBranch: main
 - name: Package1
+  version: "1.0"
   gitServerName: GH_SK
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
@@ -21,6 +23,8 @@ services:
 - serviceName: project.externalgitprojecttest_new.integrations:NonDAF
   packages:
   - name: ExternalGitprojectTest_NewProject
+    version: "1.0"
+  - name: Package1
     version: "1.0"
   - name: TPPWithVar
     version: "1.0"
