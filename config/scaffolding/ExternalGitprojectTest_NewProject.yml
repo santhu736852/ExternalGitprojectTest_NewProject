@@ -4,7 +4,7 @@ configurationVariables:
 info:
   model: int-scaffold
 packages:
-- gitBranch: main
+- gitBranch: release/1.0.1
   gitServerName: GH_SK
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
@@ -21,4 +21,4 @@ packages:
   gitUsername: santhu736852
   name: Package3
   version: '1.0'
-version: '1.0'
+version: 1.0.1
