@@ -19,6 +19,11 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
+- name: Package2
+  gitServerName: GH_SK
+  gitUrl: https://github.com/santhu736852
+  gitUsername: santhu736852
+  gitBranch: main
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: "false"
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
