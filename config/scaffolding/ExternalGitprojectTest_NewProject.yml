@@ -1,24 +1,24 @@
-version: "1.0"
+configurationVariables:
+  jdbcfunc.SAPTxStore.failFastMode: 'false'
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
 info:
   model: int-scaffold
 packages:
-- name: ExternalGitprojectTest_NewProject
+- gitBranch: main
   gitServerName: GH_SK
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
-  gitBranch: main
-- name: TPPWithVar
-  version: "1.0"
+  name: ExternalGitprojectTest_NewProject
+- gitBranch: main
   gitServerName: GH_SK
   gitUrl: https://github.com/Lakshitha-Ramesh-IBM
   gitUsername: santhu736852
-  gitBranch: main
-- name: Package3
-  version: "1.0"
+  name: TPPWithVar
+  version: '1.0'
+- gitBranch: main
   gitServerName: GH_SK
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
-  gitBranch: main
-configurationVariables:
-  jdbcfunc.SAPTxStore.failFastMode: false
-  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
+  name: Package3
+  version: '1.0'
+version: '1.0'
